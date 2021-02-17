@@ -1,0 +1,43 @@
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	font-family: Avenir, Helvetica, sans-serif;
+}
+
+form label {
+	margin: .75em 0 0;
+}
+
+form input, textarea, button {
+	font-family: Avenir, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+form textarea {
+  height: 10em;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+form button {
+	align-self: flex-start;
+	padding: 10px 16px;
+	border: 0;
+	font-size: 16px;
+	color: #fff;
+	margin: 0 0 .5em 0;
+	width: 8em;
+	border-radius: 3px;
+}
+
+@media all and (min-width: 600px) {
+  form {
+		width: 60%;
+	}
+}
